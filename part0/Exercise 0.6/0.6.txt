@@ -1,0 +1,14 @@
+title New Note(exercise 0.6)
+user->browser: click  save button
+
+note right of browser:
+browser starts executing the 
+process and sends the request
+to  server side
+end note
+
+
+
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: [{"message":"note creating sucessfull"}]
